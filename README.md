@@ -5,7 +5,7 @@ This repository contains the codebase, logs, and evaluation metrics for the fine
 ## 1. Explanation of the Finetuning Project
 The original Pangu-Weather model, developed by Huawei, was trained on 40 years of global ECMWF ERA5 reanalysis data. While it performs exceptionally well globally, applying it directly to regional datasets like IMD GFS introduces a domain gap. 
 
-This project aims to bridge that gap. We converted the original 24-hour ONNX model to PyTorch (`.pth`) format using a corrected conversion script, and then successfully finetuned this model on 3.5 years of IMD GFS data. The goal was to teach the model the specific thermodynamic and kinetic dynamics present in the IMD datasets.
+This project aims to bridge that gap. We converted the original 24-hour ONNX model to PyTorch (`.pth`) format using a corrected version of the conversion script provided by https://github.com/zhaoshan2/pangu-pytorch, and then successfully finetuned this model on 3.5 years of IMD GFS data. The goal was to teach the model the specific thermodynamic and kinetic dynamics present in the IMD datasets.
 
 ## 2. Files and File Structure
 
@@ -24,14 +24,14 @@ This project aims to bridge that gap. We converted the original 24-hour ONNX mod
 
 ## 3. Infrastructure
 * **Compute:** High-Performance Computing (HPC) Cluster
-* **Hardware:** [Specify GPU, e.g., 4x NVIDIA A100 80GB]
+* **Hardware:** 8x NVIDIA RTX A5000, split across 2 Nodes
 * **Environment:** Managed via Conda (`pangu_env`). See `requirements.txt` for exact Python dependencies.
 
 ## 4. Inputs / Data
 The dataset consists of 3.5 years of IMD GFS data, spanning from **January 2023 to May 2026**.
 * **Preprocessing:** Original files were converted from GRIB2 to NetCDF (`.nc`) at a 0.25-degree resolution.
-* **Structure:** Separated into day-wise surface files (`surface_YYYY_MM_DD.nc`) and upper-air files (`upper_air_YYYY_MM_DD.nc`).
-* **Normalization:** Mean and standard deviation tensors were pre-computed across the dataset and stored in the `aux_data/` directory to normalize inputs during training.
+* **Structure:** Separated into day-wise surface files (`surface_YYYY_MM_DD.nc`) and upper-air files (`upper_air_YYYY_MM_DD.nc`) but it also supports monthly files (`surface_YYYY_MM.nc`) and (`upper_air_YYYY_MM.nc`) for surface and upper air files respectively.
+* **Normalization:** Mean and standard deviation tensors were computed across the dataset using `compute_mean_std.py` script and stored in the `aux_data/` directory to normalize inputs during training.
 
 ## 5. Logs and Metrics of Finetuning
 The model was trained for a maximum of 100 epochs, utilizing an Early Stopping mechanism monitoring the validation loss with a patience of 20 epochs.
