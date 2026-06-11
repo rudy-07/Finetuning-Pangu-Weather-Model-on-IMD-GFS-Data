@@ -36,7 +36,7 @@ The dataset consists of 3.5 years of IMD GFS data, spanning from **January 2023 
 ## 5. Logs and Metrics of Finetuning
 The model was trained for a maximum of 100 epochs, utilizing an Early Stopping mechanism monitoring the validation loss with a patience of 20 epochs.
 
-![Learning Curve](learning_curve.png)
+![Learning Curve](plots/learning_curve.png)
 
 * **Training Duration:** Training halted at Epoch 51 due to early stopping.
 * **Best Epoch:** The optimal weights were achieved at **Epoch 31**.
@@ -66,19 +66,19 @@ The output of the inference script is a standard NetCDF file (e.g., `forecast_20
 ## 9. Final Evaluation Metrics (Validation Set)
 To comprehensively evaluate the finetuning process, we compared the 24-hour forecasts of both the **Original Pangu-Weather Model** and our **Finetuned Model** against the ground truth IMD GFS observations for the validation set (2024-04-29).
 
-We evaluated the performance both **Globally** and specifically over the **India Region** (Lat: 0 to 40, Lon: 60 to 100). The full raw layer-by-layer statistical metrics are available in `evaluation_metrics_raw.txt`.
+We evaluated the performance both **Globally** and specifically over the **India Region** (Lat: 0 to 40, Lon: 60 to 100). The full raw layer-by-layer statistical metrics are available in `raw_metrics/evaluation_metrics_raw.txt`.
 
 ### 9.1 Global Performance Comparison
 
 The finetuned model significantly bridges the domain gap across the entire global grid, substantially reducing Root Mean Square Error (RMSE) and Mean Absolute Error (MAE) across all tested variables.
 
-![Global Performance Comparison](finetune_performance_comparison.png)
+![Global Performance Comparison](plots/finetune_performance_comparison.png)
 
 ### 9.2 India Region Performance Comparison
 
 When evaluating exclusively over the Indian geographic region, the finetuned model shows dramatic structural improvements. It almost entirely corrects the extreme negative biases seen in the original model for metrics like Mean Sea Level Pressure (MSL) and Geopotential Height (Z).
 
-![India Performance Comparison](finetune_performance_comparison_india.png)
+![India Performance Comparison](plots/finetune_performance_comparison_india.png)
 
 ## 10. Summary of Improvements
 * **Pressure & Height:** MSL error (RMSE) was reduced by **66%** globally and **34%** regionally over India. Geopotential Height (Z) error fell by **69%** globally and **36%** regionally. The finetuned model successfully removed the strong negative biases present in the original model.
