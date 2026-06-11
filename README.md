@@ -5,7 +5,7 @@ This repository contains the codebase, logs, and evaluation metrics for the fine
 ## 1. Project Highlights
 - **Dataset:** Finetuned Pangu-Weather on 3.5 years of IMD GFS data.
 - **Performance:** Improved MSL RMSE by **66%** globally and T2M RMSE by **55%** globally.
-- **Hardware:** Trained using 8x NVIDIA RTX A5000 GPUs.
+- **Hardware:** Trained using 8x NVIDIA RTX A100-SXM4-80GB GPUs.
 - **Efficiency:** Optimized training pipelines, reducing epoch time from ~20 minutes down to ~8 minutes.
 - **Best Model:** Achieved a best validation loss of `0.131063` at Epoch 31.
 
@@ -58,7 +58,7 @@ graph TD
 
 ## 6. Infrastructure & Training Optimizations
 * **Compute:** High-Performance Computing (HPC) Cluster
-* **Hardware:** 8x NVIDIA RTX A5000, split across 2 Nodes
+* **Hardware:** 8x NVIDIA RTX A100-SXM4-80GB, split across 2 Nodes
 * **Environment:** Managed via Conda (`pangu_env`). See `requirements.txt` for exact Python dependencies.
 
 **Training Optimizations:**
