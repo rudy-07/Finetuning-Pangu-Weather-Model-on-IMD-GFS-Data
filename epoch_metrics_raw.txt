@@ -1,0 +1,578 @@
+26-06-04 11:33:13.071 : Epoch 1 Rank 4: lr=0.000020, train_loss=0.169730, time=537.501s
+26-06-04 11:33:13.071 : Epoch 1 Rank 3: lr=0.000020, train_loss=0.169130, time=537.498s
+26-06-04 11:33:13.071 : Epoch 1 Rank 6: lr=0.000020, train_loss=0.168276, time=537.501s
+26-06-04 11:33:13.071 : Epoch 1 Rank 1: lr=0.000020, train_loss=0.167317, time=537.495s
+26-06-04 11:33:13.071 : Epoch 1 Rank 7: lr=0.000020, train_loss=0.167954, time=537.497s
+26-06-04 11:33:13.071 : Epoch 1 Rank 2: lr=0.000020, train_loss=0.170421, time=537.495s
+26-06-04 11:33:13.071 : Epoch 1 Rank 5: lr=0.000020, train_loss=0.168242, time=537.497s
+26-06-04 11:33:13.071 : Epoch 1 Rank 0: lr=0.000020, train_loss=0.167651, time=537.504s
+26-06-04 11:33:17.939 : model is saved at 1 epoch.
+26-06-04 11:34:07.235 : Validate at Epoch 1 | val_loss=0.146463 | patience=0/20
+26-06-04 11:34:08.673 :   >> New best val_loss=0.146463 (prev=inf) — best_model.pth saved at epoch 1.
+26-06-04 11:42:46.886 : Epoch 2 Rank 5: lr=0.000020, train_loss=0.136493, time=518.205s
+26-06-04 11:42:46.893 : Epoch 2 Rank 0: lr=0.000020, train_loss=0.137279, time=518.213s
+26-06-04 11:42:46.886 : Epoch 2 Rank 6: lr=0.000020, train_loss=0.135289, time=518.206s
+26-06-04 11:42:46.893 : Epoch 2 Rank 2: lr=0.000020, train_loss=0.137033, time=518.213s
+26-06-04 11:42:46.886 : Epoch 2 Rank 7: lr=0.000020, train_loss=0.137209, time=518.206s
+26-06-04 11:42:46.893 : Epoch 2 Rank 3: lr=0.000020, train_loss=0.136183, time=518.213s
+26-06-04 11:42:46.886 : Epoch 2 Rank 4: lr=0.000020, train_loss=0.139807, time=518.206s
+26-06-04 11:42:46.893 : Epoch 2 Rank 1: lr=0.000020, train_loss=0.136341, time=518.213s
+26-06-04 11:42:51.927 : model is saved at 2 epoch.
+26-06-04 11:43:19.632 : Validate at Epoch 2 | val_loss=0.142151 | patience=0/20
+26-06-04 11:43:21.081 :   >> New best val_loss=0.142151 (prev=0.146463) — best_model.pth saved at epoch 2.
+26-06-04 11:51:58.492 : Epoch 3 Rank 4: lr=0.000020, train_loss=0.133549, time=517.403s
+26-06-04 11:51:58.492 : Epoch 3 Rank 5: lr=0.000020, train_loss=0.133775, time=517.403s
+26-06-04 11:51:58.492 : Epoch 3 Rank 6: lr=0.000020, train_loss=0.134381, time=517.403s
+26-06-04 11:51:58.492 : Epoch 3 Rank 7: lr=0.000020, train_loss=0.135032, time=517.403s
+26-06-04 11:51:58.495 : Epoch 3 Rank 0: lr=0.000020, train_loss=0.134667, time=517.405s
+26-06-04 11:51:58.494 : Epoch 3 Rank 3: lr=0.000020, train_loss=0.134015, time=517.405s
+26-06-04 11:51:58.494 : Epoch 3 Rank 1: lr=0.000020, train_loss=0.133384, time=517.404s
+26-06-04 11:51:58.494 : Epoch 3 Rank 2: lr=0.000020, train_loss=0.133712, time=517.405s
+26-06-04 11:52:02.832 : model is saved at 3 epoch.
+26-06-04 11:52:30.249 : Validate at Epoch 3 | val_loss=0.141924 | patience=0/20
+26-06-04 11:52:31.635 :   >> New best val_loss=0.141924 (prev=0.142151) — best_model.pth saved at epoch 3.
+26-06-04 12:01:09.497 : Epoch 4 Rank 1: lr=0.000020, train_loss=0.130411, time=517.854s
+26-06-04 12:01:09.497 : Epoch 4 Rank 0: lr=0.000020, train_loss=0.130433, time=517.855s
+26-06-04 12:01:09.497 : Epoch 4 Rank 3: lr=0.000020, train_loss=0.130584, time=517.854s
+26-06-04 12:01:09.497 : Epoch 4 Rank 6: lr=0.000020, train_loss=0.129010, time=517.854s
+26-06-04 12:01:09.497 : Epoch 4 Rank 2: lr=0.000020, train_loss=0.129853, time=517.854s
+26-06-04 12:01:09.497 : Epoch 4 Rank 4: lr=0.000020, train_loss=0.128915, time=517.854s
+26-06-04 12:01:09.497 : Epoch 4 Rank 7: lr=0.000020, train_loss=0.130451, time=517.855s
+26-06-04 12:01:09.497 : Epoch 4 Rank 5: lr=0.000020, train_loss=0.130424, time=517.855s
+26-06-04 12:01:14.502 : model is saved at 4 epoch.
+26-06-04 12:01:42.329 : Validate at Epoch 4 | val_loss=0.138491 | patience=0/20
+26-06-04 12:01:43.647 :   >> New best val_loss=0.138491 (prev=0.141924) — best_model.pth saved at epoch 4.
+26-06-04 12:10:22.657 : Epoch 5 Rank 5: lr=0.000020, train_loss=0.127355, time=519.000s
+26-06-04 12:10:22.657 : Epoch 5 Rank 6: lr=0.000020, train_loss=0.125883, time=519.000s
+26-06-04 12:10:22.657 : Epoch 5 Rank 4: lr=0.000020, train_loss=0.126683, time=519.001s
+26-06-04 12:10:22.657 : Epoch 5 Rank 7: lr=0.000020, train_loss=0.125863, time=519.001s
+26-06-04 12:10:22.660 : Epoch 5 Rank 2: lr=0.000020, train_loss=0.127621, time=519.003s
+26-06-04 12:10:22.659 : Epoch 5 Rank 0: lr=0.000020, train_loss=0.126334, time=519.002s
+26-06-04 12:10:22.660 : Epoch 5 Rank 1: lr=0.000020, train_loss=0.126229, time=519.003s
+26-06-04 12:10:22.660 : Epoch 5 Rank 3: lr=0.000020, train_loss=0.129101, time=519.003s
+26-06-04 12:10:27.158 : model is saved at 5 epoch.
+26-06-04 12:10:54.554 : Validate at Epoch 5 | val_loss=0.145899 | patience=0/20
+26-06-04 12:10:54.554 :   >> No improvement. best_loss=0.138491 at epoch 4. patience=1/20
+26-06-04 12:19:33.581 : Epoch 6 Rank 0: lr=0.000020, train_loss=0.123678, time=519.019s
+26-06-04 12:19:33.583 : Epoch 6 Rank 5: lr=0.000020, train_loss=0.122986, time=519.021s
+26-06-04 12:19:33.581 : Epoch 6 Rank 3: lr=0.000020, train_loss=0.123802, time=519.019s
+26-06-04 12:19:33.583 : Epoch 6 Rank 4: lr=0.000020, train_loss=0.124383, time=519.021s
+26-06-04 12:19:33.581 : Epoch 6 Rank 1: lr=0.000020, train_loss=0.124047, time=519.019s
+26-06-04 12:19:33.583 : Epoch 6 Rank 6: lr=0.000020, train_loss=0.123436, time=519.021s
+26-06-04 12:19:33.581 : Epoch 6 Rank 2: lr=0.000020, train_loss=0.122875, time=519.019s
+26-06-04 12:19:33.583 : Epoch 6 Rank 7: lr=0.000020, train_loss=0.123124, time=519.021s
+26-06-04 12:19:37.956 : model is saved at 6 epoch.
+26-06-04 12:20:05.961 : Validate at Epoch 6 | val_loss=0.139409 | patience=1/20
+26-06-04 12:20:05.962 :   >> No improvement. best_loss=0.138491 at epoch 4. patience=2/20
+26-06-04 12:28:45.165 : Epoch 7 Rank 0: lr=0.000020, train_loss=0.121624, time=519.198s
+26-06-04 12:28:45.168 : Epoch 7 Rank 4: lr=0.000020, train_loss=0.122224, time=519.201s
+26-06-04 12:28:45.165 : Epoch 7 Rank 3: lr=0.000020, train_loss=0.122234, time=519.198s
+26-06-04 12:28:45.169 : Epoch 7 Rank 6: lr=0.000020, train_loss=0.120885, time=519.202s
+26-06-04 12:28:45.165 : Epoch 7 Rank 1: lr=0.000020, train_loss=0.121698, time=519.198s
+26-06-04 12:28:45.169 : Epoch 7 Rank 5: lr=0.000020, train_loss=0.121368, time=519.202s
+26-06-04 12:28:45.165 : Epoch 7 Rank 2: lr=0.000020, train_loss=0.121498, time=519.198s
+26-06-04 12:28:45.169 : Epoch 7 Rank 7: lr=0.000020, train_loss=0.121561, time=519.202s
+26-06-04 12:28:49.292 : model is saved at 7 epoch.
+26-06-04 12:29:17.062 : Validate at Epoch 7 | val_loss=0.139756 | patience=2/20
+26-06-04 12:29:17.063 :   >> No improvement. best_loss=0.138491 at epoch 4. patience=3/20
+26-06-04 12:37:55.844 : Epoch 8 Rank 3: lr=0.000020, train_loss=0.119671, time=518.772s
+26-06-04 12:37:55.843 : Epoch 8 Rank 2: lr=0.000020, train_loss=0.122188, time=518.771s
+26-06-04 12:37:55.844 : Epoch 8 Rank 1: lr=0.000020, train_loss=0.120812, time=518.772s
+26-06-04 12:37:55.843 : Epoch 8 Rank 0: lr=0.000020, train_loss=0.122299, time=518.771s
+26-06-04 12:37:55.846 : Epoch 8 Rank 4: lr=0.000020, train_loss=0.122390, time=518.774s
+26-06-04 12:37:55.847 : Epoch 8 Rank 7: lr=0.000020, train_loss=0.121286, time=518.774s
+26-06-04 12:37:55.846 : Epoch 8 Rank 6: lr=0.000020, train_loss=0.120191, time=518.774s
+26-06-04 12:37:55.846 : Epoch 8 Rank 5: lr=0.000020, train_loss=0.121041, time=518.774s
+26-06-04 12:38:00.564 : model is saved at 8 epoch.
+26-06-04 12:38:28.033 : Validate at Epoch 8 | val_loss=0.136200 | patience=3/20
+26-06-04 12:38:29.766 :   >> New best val_loss=0.136200 (prev=0.138491) — best_model.pth saved at epoch 8.
+26-06-04 12:47:08.018 : Epoch 9 Rank 0: lr=0.000020, train_loss=0.117072, time=518.245s
+26-06-04 12:47:08.018 : Epoch 9 Rank 2: lr=0.000020, train_loss=0.116815, time=518.245s
+26-06-04 12:47:08.018 : Epoch 9 Rank 3: lr=0.000020, train_loss=0.117085, time=518.246s
+26-06-04 12:47:08.018 : Epoch 9 Rank 1: lr=0.000020, train_loss=0.116812, time=518.246s
+26-06-04 12:47:08.020 : Epoch 9 Rank 6: lr=0.000020, train_loss=0.117405, time=518.248s
+26-06-04 12:47:08.020 : Epoch 9 Rank 7: lr=0.000020, train_loss=0.115176, time=518.248s
+26-06-04 12:47:08.020 : Epoch 9 Rank 4: lr=0.000020, train_loss=0.117265, time=518.248s
+26-06-04 12:47:08.020 : Epoch 9 Rank 5: lr=0.000020, train_loss=0.117649, time=518.248s
+26-06-04 12:47:12.426 : model is saved at 9 epoch.
+26-06-04 12:47:39.792 : Validate at Epoch 9 | val_loss=0.135272 | patience=0/20
+26-06-04 12:47:41.252 :   >> New best val_loss=0.135272 (prev=0.136200) — best_model.pth saved at epoch 9.
+26-06-04 13:00:51.716 : Epoch 10 Rank 1: lr=0.000020, train_loss=0.118172, time=790.459s
+26-06-04 13:00:51.718 : Epoch 10 Rank 7: lr=0.000020, train_loss=0.118230, time=790.461s
+26-06-04 13:00:51.715 : Epoch 10 Rank 3: lr=0.000020, train_loss=0.116859, time=790.459s
+26-06-04 13:00:51.717 : Epoch 10 Rank 4: lr=0.000020, train_loss=0.119303, time=790.461s
+26-06-04 13:00:51.716 : Epoch 10 Rank 0: lr=0.000020, train_loss=0.118260, time=790.459s
+26-06-04 13:00:51.717 : Epoch 10 Rank 6: lr=0.000020, train_loss=0.117425, time=790.461s
+26-06-04 13:00:51.716 : Epoch 10 Rank 2: lr=0.000020, train_loss=0.118013, time=790.459s
+26-06-04 13:00:51.718 : Epoch 10 Rank 5: lr=0.000020, train_loss=0.117182, time=790.461s
+26-06-04 13:00:56.798 : model is saved at 10 epoch.
+26-06-04 13:01:24.730 : Validate at Epoch 10 | val_loss=0.136295 | patience=0/20
+26-06-04 13:01:24.732 :   >> No improvement. best_loss=0.135272 at epoch 9. patience=1/20
+26-06-04 13:10:15.836 : Epoch 11 Rank 1: lr=0.000020, train_loss=0.115502, time=531.097s
+26-06-04 13:10:15.836 : Epoch 11 Rank 3: lr=0.000020, train_loss=0.116737, time=531.097s
+26-06-04 13:10:15.837 : Epoch 11 Rank 2: lr=0.000020, train_loss=0.116509, time=531.098s
+26-06-04 13:10:15.837 : Epoch 11 Rank 0: lr=0.000020, train_loss=0.116247, time=531.098s
+26-06-04 13:10:15.835 : Epoch 11 Rank 6: lr=0.000020, train_loss=0.116497, time=531.096s
+26-06-04 13:10:15.835 : Epoch 11 Rank 5: lr=0.000020, train_loss=0.116749, time=531.096s
+26-06-04 13:10:15.835 : Epoch 11 Rank 4: lr=0.000020, train_loss=0.117586, time=531.096s
+26-06-04 13:10:15.835 : Epoch 11 Rank 7: lr=0.000020, train_loss=0.115445, time=531.096s
+26-06-04 13:10:20.601 : model is saved at 11 epoch.
+26-06-04 13:10:48.352 : Validate at Epoch 11 | val_loss=0.136933 | patience=1/20
+26-06-04 13:10:48.352 :   >> No improvement. best_loss=0.135272 at epoch 9. patience=2/20
+26-06-04 13:19:26.429 : Epoch 12 Rank 0: lr=0.000020, train_loss=0.113080, time=518.070s
+26-06-04 13:19:26.429 : Epoch 12 Rank 1: lr=0.000020, train_loss=0.114176, time=518.070s
+26-06-04 13:19:26.429 : Epoch 12 Rank 3: lr=0.000020, train_loss=0.114002, time=518.069s
+26-06-04 13:19:26.429 : Epoch 12 Rank 2: lr=0.000020, train_loss=0.114401, time=518.069s
+26-06-04 13:19:26.431 : Epoch 12 Rank 4: lr=0.000020, train_loss=0.112776, time=518.072s
+26-06-04 13:19:26.432 : Epoch 12 Rank 5: lr=0.000020, train_loss=0.115088, time=518.073s
+26-06-04 13:19:26.432 : Epoch 12 Rank 6: lr=0.000020, train_loss=0.113212, time=518.073s
+26-06-04 13:19:26.432 : Epoch 12 Rank 7: lr=0.000020, train_loss=0.113022, time=518.073s
+26-06-04 13:19:30.842 : model is saved at 12 epoch.
+26-06-04 13:19:58.255 : Validate at Epoch 12 | val_loss=0.134006 | patience=2/20
+26-06-04 13:19:59.782 :   >> New best val_loss=0.134006 (prev=0.135272) — best_model.pth saved at epoch 12.
+26-06-04 13:28:38.361 : Epoch 13 Rank 6: lr=0.000020, train_loss=0.116385, time=518.566s
+26-06-04 13:28:38.361 : Epoch 13 Rank 5: lr=0.000020, train_loss=0.115115, time=518.566s
+26-06-04 13:28:38.361 : Epoch 13 Rank 4: lr=0.000020, train_loss=0.113599, time=518.566s
+26-06-04 13:28:38.361 : Epoch 13 Rank 7: lr=0.000020, train_loss=0.112967, time=518.567s
+26-06-04 13:28:38.362 : Epoch 13 Rank 0: lr=0.000020, train_loss=0.113408, time=518.567s
+26-06-04 13:28:38.362 : Epoch 13 Rank 2: lr=0.000020, train_loss=0.113805, time=518.567s
+26-06-04 13:28:38.362 : Epoch 13 Rank 1: lr=0.000020, train_loss=0.113297, time=518.567s
+26-06-04 13:28:38.362 : Epoch 13 Rank 3: lr=0.000020, train_loss=0.112977, time=518.567s
+26-06-04 13:28:43.357 : model is saved at 13 epoch.
+26-06-04 13:29:10.974 : Validate at Epoch 13 | val_loss=0.135753 | patience=0/20
+26-06-04 13:29:10.975 :   >> No improvement. best_loss=0.134006 at epoch 12. patience=1/20
+26-06-04 13:37:48.956 : Epoch 14 Rank 3: lr=0.000020, train_loss=0.115384, time=517.974s
+26-06-04 13:37:48.956 : Epoch 14 Rank 6: lr=0.000020, train_loss=0.116453, time=517.975s
+26-06-04 13:37:48.956 : Epoch 14 Rank 1: lr=0.000020, train_loss=0.115278, time=517.974s
+26-06-04 13:37:48.956 : Epoch 14 Rank 4: lr=0.000020, train_loss=0.114566, time=517.975s
+26-06-04 13:37:48.956 : Epoch 14 Rank 0: lr=0.000020, train_loss=0.114481, time=517.975s
+26-06-04 13:37:48.957 : Epoch 14 Rank 7: lr=0.000020, train_loss=0.114343, time=517.975s
+26-06-04 13:37:48.956 : Epoch 14 Rank 2: lr=0.000020, train_loss=0.115897, time=517.974s
+26-06-04 13:37:48.956 : Epoch 14 Rank 5: lr=0.000020, train_loss=0.115767, time=517.975s
+26-06-04 13:37:53.347 : model is saved at 14 epoch.
+26-06-04 13:38:21.062 : Validate at Epoch 14 | val_loss=0.135178 | patience=1/20
+26-06-04 13:38:21.063 :   >> No improvement. best_loss=0.134006 at epoch 12. patience=2/20
+26-06-04 13:46:59.301 : Epoch 15 Rank 4: lr=0.000020, train_loss=0.116300, time=518.232s
+26-06-04 13:46:59.302 : Epoch 15 Rank 7: lr=0.000020, train_loss=0.114151, time=518.233s
+26-06-04 13:46:59.302 : Epoch 15 Rank 5: lr=0.000020, train_loss=0.112236, time=518.232s
+26-06-04 13:46:59.302 : Epoch 15 Rank 6: lr=0.000020, train_loss=0.112858, time=518.232s
+26-06-04 13:46:59.305 : Epoch 15 Rank 0: lr=0.000020, train_loss=0.114153, time=518.236s
+26-06-04 13:46:59.305 : Epoch 15 Rank 3: lr=0.000020, train_loss=0.113679, time=518.236s
+26-06-04 13:46:59.305 : Epoch 15 Rank 1: lr=0.000020, train_loss=0.114429, time=518.236s
+26-06-04 13:46:59.305 : Epoch 15 Rank 2: lr=0.000020, train_loss=0.113369, time=518.236s
+26-06-04 13:47:03.661 : model is saved at 15 epoch.
+26-06-04 13:47:31.215 : Validate at Epoch 15 | val_loss=0.139792 | patience=2/20
+26-06-04 13:47:31.215 :   >> No improvement. best_loss=0.134006 at epoch 12. patience=3/20
+26-06-04 13:56:09.495 : Epoch 16 Rank 0: lr=0.000020, train_loss=0.113335, time=518.272s
+26-06-04 13:56:09.495 : Epoch 16 Rank 5: lr=0.000020, train_loss=0.112549, time=518.272s
+26-06-04 13:56:09.495 : Epoch 16 Rank 3: lr=0.000020, train_loss=0.111729, time=518.272s
+26-06-04 13:56:09.495 : Epoch 16 Rank 6: lr=0.000020, train_loss=0.112433, time=518.272s
+26-06-04 13:56:09.495 : Epoch 16 Rank 1: lr=0.000020, train_loss=0.111397, time=518.272s
+26-06-04 13:56:09.495 : Epoch 16 Rank 4: lr=0.000020, train_loss=0.112092, time=518.272s
+26-06-04 13:56:09.495 : Epoch 16 Rank 2: lr=0.000020, train_loss=0.111166, time=518.272s
+26-06-04 13:56:09.495 : Epoch 16 Rank 7: lr=0.000020, train_loss=0.112348, time=518.272s
+26-06-04 13:56:14.080 : model is saved at 16 epoch.
+26-06-04 13:56:41.502 : Validate at Epoch 16 | val_loss=0.135100 | patience=3/20
+26-06-04 13:56:41.503 :   >> No improvement. best_loss=0.134006 at epoch 12. patience=4/20
+26-06-04 14:05:20.224 : Epoch 17 Rank 2: lr=0.000020, train_loss=0.113891, time=518.714s
+26-06-04 14:05:20.224 : Epoch 17 Rank 3: lr=0.000020, train_loss=0.112757, time=518.714s
+26-06-04 14:05:20.224 : Epoch 17 Rank 1: lr=0.000020, train_loss=0.113254, time=518.713s
+26-06-04 14:05:20.224 : Epoch 17 Rank 0: lr=0.000020, train_loss=0.112165, time=518.714s
+26-06-04 14:05:20.228 : Epoch 17 Rank 4: lr=0.000020, train_loss=0.112378, time=518.718s
+26-06-04 14:05:20.229 : Epoch 17 Rank 6: lr=0.000020, train_loss=0.111517, time=518.719s
+26-06-04 14:05:20.229 : Epoch 17 Rank 5: lr=0.000020, train_loss=0.112624, time=518.719s
+26-06-04 14:05:20.229 : Epoch 17 Rank 7: lr=0.000020, train_loss=0.114592, time=518.719s
+26-06-04 14:05:24.659 : model is saved at 17 epoch.
+26-06-04 14:05:52.283 : Validate at Epoch 17 | val_loss=0.133624 | patience=4/20
+26-06-04 14:05:53.938 :   >> New best val_loss=0.133624 (prev=0.134006) — best_model.pth saved at epoch 17.
+26-06-04 14:14:32.470 : Epoch 18 Rank 6: lr=0.000020, train_loss=0.112655, time=518.524s
+26-06-04 14:14:32.470 : Epoch 18 Rank 5: lr=0.000020, train_loss=0.113432, time=518.524s
+26-06-04 14:14:32.470 : Epoch 18 Rank 7: lr=0.000020, train_loss=0.112898, time=518.524s
+26-06-04 14:14:32.470 : Epoch 18 Rank 4: lr=0.000020, train_loss=0.110568, time=518.524s
+26-06-04 14:14:32.473 : Epoch 18 Rank 3: lr=0.000020, train_loss=0.112233, time=518.527s
+26-06-04 14:14:32.473 : Epoch 18 Rank 1: lr=0.000020, train_loss=0.112230, time=518.527s
+26-06-04 14:14:32.473 : Epoch 18 Rank 0: lr=0.000020, train_loss=0.111829, time=518.511s
+26-06-04 14:14:32.474 : Epoch 18 Rank 2: lr=0.000020, train_loss=0.112174, time=518.527s
+26-06-04 14:14:37.167 : model is saved at 18 epoch.
+26-06-04 14:15:04.525 : Validate at Epoch 18 | val_loss=0.135204 | patience=0/20
+26-06-04 14:15:04.526 :   >> No improvement. best_loss=0.133624 at epoch 17. patience=1/20
+26-06-04 14:23:42.721 : Epoch 19 Rank 3: lr=0.000020, train_loss=0.110693, time=518.189s
+26-06-04 14:23:42.721 : Epoch 19 Rank 1: lr=0.000020, train_loss=0.109438, time=518.189s
+26-06-04 14:23:42.721 : Epoch 19 Rank 0: lr=0.000020, train_loss=0.109483, time=518.190s
+26-06-04 14:23:42.722 : Epoch 19 Rank 2: lr=0.000020, train_loss=0.111377, time=518.190s
+26-06-04 14:23:42.725 : Epoch 19 Rank 6: lr=0.000020, train_loss=0.111551, time=518.193s
+26-06-04 14:23:42.724 : Epoch 19 Rank 4: lr=0.000020, train_loss=0.111020, time=518.192s
+26-06-04 14:23:42.725 : Epoch 19 Rank 5: lr=0.000020, train_loss=0.109016, time=518.193s
+26-06-04 14:23:42.725 : Epoch 19 Rank 7: lr=0.000020, train_loss=0.111372, time=518.193s
+26-06-04 14:23:46.910 : model is saved at 19 epoch.
+26-06-04 14:24:14.329 : Validate at Epoch 19 | val_loss=0.136098 | patience=1/20
+26-06-04 14:24:14.330 :   >> No improvement. best_loss=0.133624 at epoch 17. patience=2/20
+26-06-04 14:32:52.789 : Epoch 20 Rank 6: lr=0.000020, train_loss=0.112992, time=518.453s
+26-06-04 14:32:52.789 : Epoch 20 Rank 5: lr=0.000020, train_loss=0.113157, time=518.453s
+26-06-04 14:32:52.789 : Epoch 20 Rank 7: lr=0.000020, train_loss=0.112408, time=518.453s
+26-06-04 14:32:52.789 : Epoch 20 Rank 4: lr=0.000020, train_loss=0.113410, time=518.453s
+26-06-04 14:32:52.791 : Epoch 20 Rank 1: lr=0.000020, train_loss=0.115693, time=518.455s
+26-06-04 14:32:52.792 : Epoch 20 Rank 0: lr=0.000020, train_loss=0.113207, time=518.456s
+26-06-04 14:32:52.792 : Epoch 20 Rank 3: lr=0.000020, train_loss=0.112503, time=518.456s
+26-06-04 14:32:52.792 : Epoch 20 Rank 2: lr=0.000020, train_loss=0.113238, time=518.456s
+26-06-04 14:32:57.710 : model is saved at 20 epoch.
+26-06-04 14:33:25.215 : Validate at Epoch 20 | val_loss=0.136758 | patience=2/20
+26-06-04 14:33:25.215 :   >> No improvement. best_loss=0.133624 at epoch 17. patience=3/20
+26-06-04 14:42:03.098 : Epoch 21 Rank 2: lr=0.000020, train_loss=0.110391, time=517.876s
+26-06-04 14:42:03.098 : Epoch 21 Rank 1: lr=0.000020, train_loss=0.111616, time=517.876s
+26-06-04 14:42:03.097 : Epoch 21 Rank 0: lr=0.000020, train_loss=0.112814, time=517.876s
+26-06-04 14:42:03.098 : Epoch 21 Rank 3: lr=0.000020, train_loss=0.110772, time=517.876s
+26-06-04 14:42:03.101 : Epoch 21 Rank 4: lr=0.000020, train_loss=0.110824, time=517.880s
+26-06-04 14:42:03.102 : Epoch 21 Rank 6: lr=0.000020, train_loss=0.111041, time=517.880s
+26-06-04 14:42:03.102 : Epoch 21 Rank 5: lr=0.000020, train_loss=0.111391, time=517.880s
+26-06-04 14:42:03.102 : Epoch 21 Rank 7: lr=0.000020, train_loss=0.111067, time=517.880s
+26-06-04 14:42:08.423 : model is saved at 21 epoch.
+26-06-04 14:42:36.267 : Validate at Epoch 21 | val_loss=0.137105 | patience=3/20
+26-06-04 14:42:36.268 :   >> No improvement. best_loss=0.133624 at epoch 17. patience=4/20
+26-06-04 14:51:14.941 : Epoch 22 Rank 3: lr=0.000020, train_loss=0.111417, time=518.667s
+26-06-04 14:51:14.941 : Epoch 22 Rank 2: lr=0.000020, train_loss=0.112144, time=518.667s
+26-06-04 14:51:14.941 : Epoch 22 Rank 0: lr=0.000020, train_loss=0.111955, time=518.667s
+26-06-04 14:51:14.941 : Epoch 22 Rank 1: lr=0.000020, train_loss=0.112690, time=518.667s
+26-06-04 14:51:14.942 : Epoch 22 Rank 4: lr=0.000020, train_loss=0.111993, time=518.667s
+26-06-04 14:51:14.942 : Epoch 22 Rank 7: lr=0.000020, train_loss=0.112360, time=518.668s
+26-06-04 14:51:14.942 : Epoch 22 Rank 6: lr=0.000020, train_loss=0.111506, time=518.668s
+26-06-04 14:51:14.942 : Epoch 22 Rank 5: lr=0.000020, train_loss=0.113394, time=518.668s
+26-06-04 14:51:19.072 : model is saved at 22 epoch.
+26-06-04 14:51:46.446 : Validate at Epoch 22 | val_loss=0.135942 | patience=4/20
+26-06-04 14:51:46.447 :   >> No improvement. best_loss=0.133624 at epoch 17. patience=5/20
+26-06-04 15:00:29.853 : Epoch 23 Rank 3: lr=0.000020, train_loss=0.109240, time=523.400s
+26-06-04 15:00:29.853 : Epoch 23 Rank 0: lr=0.000020, train_loss=0.109030, time=523.399s
+26-06-04 15:00:29.854 : Epoch 23 Rank 2: lr=0.000020, train_loss=0.111191, time=523.400s
+26-06-04 15:00:29.854 : Epoch 23 Rank 1: lr=0.000020, train_loss=0.110033, time=523.400s
+26-06-04 15:00:29.859 : Epoch 23 Rank 6: lr=0.000020, train_loss=0.108739, time=523.405s
+26-06-04 15:00:29.859 : Epoch 23 Rank 5: lr=0.000020, train_loss=0.109405, time=523.405s
+26-06-04 15:00:29.858 : Epoch 23 Rank 4: lr=0.000020, train_loss=0.108636, time=523.405s
+26-06-04 15:00:29.859 : Epoch 23 Rank 7: lr=0.000020, train_loss=0.109368, time=523.405s
+26-06-04 15:00:34.351 : model is saved at 23 epoch.
+26-06-04 15:01:01.947 : Validate at Epoch 23 | val_loss=0.134798 | patience=5/20
+26-06-04 15:01:01.948 :   >> No improvement. best_loss=0.133624 at epoch 17. patience=6/20
+26-06-04 15:09:40.496 : Epoch 24 Rank 5: lr=0.000020, train_loss=0.108753, time=518.542s
+26-06-04 15:09:40.497 : Epoch 24 Rank 6: lr=0.000020, train_loss=0.110646, time=518.542s
+26-06-04 15:09:40.496 : Epoch 24 Rank 4: lr=0.000020, train_loss=0.110093, time=518.542s
+26-06-04 15:09:40.497 : Epoch 24 Rank 7: lr=0.000020, train_loss=0.110512, time=518.542s
+26-06-04 15:09:40.511 : Epoch 24 Rank 1: lr=0.000020, train_loss=0.109300, time=518.555s
+26-06-04 15:09:40.511 : Epoch 24 Rank 0: lr=0.000020, train_loss=0.109822, time=518.556s
+26-06-04 15:09:40.511 : Epoch 24 Rank 2: lr=0.000020, train_loss=0.109725, time=518.556s
+26-06-04 15:09:40.511 : Epoch 24 Rank 3: lr=0.000020, train_loss=0.108049, time=518.556s
+26-06-04 15:09:45.269 : model is saved at 24 epoch.
+26-06-04 15:10:12.916 : Validate at Epoch 24 | val_loss=0.133865 | patience=6/20
+26-06-04 15:10:12.917 :   >> No improvement. best_loss=0.133624 at epoch 17. patience=7/20
+26-06-04 15:18:51.073 : Epoch 25 Rank 0: lr=0.000020, train_loss=0.114412, time=518.150s
+26-06-04 15:18:51.072 : Epoch 25 Rank 1: lr=0.000020, train_loss=0.111563, time=518.149s
+26-06-04 15:18:51.072 : Epoch 25 Rank 3: lr=0.000020, train_loss=0.111554, time=518.149s
+26-06-04 15:18:51.073 : Epoch 25 Rank 2: lr=0.000020, train_loss=0.112512, time=518.149s
+26-06-04 15:18:51.078 : Epoch 25 Rank 6: lr=0.000020, train_loss=0.112818, time=518.155s
+26-06-04 15:18:51.078 : Epoch 25 Rank 4: lr=0.000020, train_loss=0.111981, time=518.155s
+26-06-04 15:18:51.078 : Epoch 25 Rank 5: lr=0.000020, train_loss=0.112480, time=518.155s
+26-06-04 15:18:51.078 : Epoch 25 Rank 7: lr=0.000020, train_loss=0.112309, time=518.155s
+26-06-04 15:18:55.492 : model is saved at 25 epoch.
+26-06-04 15:19:23.226 : Validate at Epoch 25 | val_loss=0.134727 | patience=7/20
+26-06-04 15:19:23.227 :   >> No improvement. best_loss=0.133624 at epoch 17. patience=8/20
+26-06-04 15:28:01.555 : Epoch 26 Rank 3: lr=0.000010, train_loss=0.105135, time=518.320s
+26-06-04 15:28:01.555 : Epoch 26 Rank 0: lr=0.000010, train_loss=0.105244, time=518.320s
+26-06-04 15:28:01.556 : Epoch 26 Rank 1: lr=0.000010, train_loss=0.106152, time=518.320s
+26-06-04 15:28:01.556 : Epoch 26 Rank 2: lr=0.000010, train_loss=0.106164, time=518.320s
+26-06-04 15:28:01.556 : Epoch 26 Rank 4: lr=0.000010, train_loss=0.105114, time=518.321s
+26-06-04 15:28:01.556 : Epoch 26 Rank 7: lr=0.000010, train_loss=0.104270, time=518.321s
+26-06-04 15:28:01.556 : Epoch 26 Rank 5: lr=0.000010, train_loss=0.104238, time=518.320s
+26-06-04 15:28:01.556 : Epoch 26 Rank 6: lr=0.000010, train_loss=0.104113, time=518.321s
+26-06-04 15:28:05.625 : model is saved at 26 epoch.
+26-06-04 15:28:33.310 : Validate at Epoch 26 | val_loss=0.132576 | patience=8/20
+26-06-04 15:28:34.837 :   >> New best val_loss=0.132576 (prev=0.133624) — best_model.pth saved at epoch 26.
+26-06-04 15:37:13.260 : Epoch 27 Rank 3: lr=0.000010, train_loss=0.101723, time=518.420s
+26-06-04 15:37:13.260 : Epoch 27 Rank 2: lr=0.000010, train_loss=0.101831, time=518.419s
+26-06-04 15:37:13.260 : Epoch 27 Rank 1: lr=0.000010, train_loss=0.101807, time=518.420s
+26-06-04 15:37:13.261 : Epoch 27 Rank 0: lr=0.000010, train_loss=0.100386, time=518.420s
+26-06-04 15:37:13.264 : Epoch 27 Rank 4: lr=0.000010, train_loss=0.100628, time=518.424s
+26-06-04 15:37:13.265 : Epoch 27 Rank 7: lr=0.000010, train_loss=0.100770, time=518.424s
+26-06-04 15:37:13.265 : Epoch 27 Rank 6: lr=0.000010, train_loss=0.100258, time=518.424s
+26-06-04 15:37:13.265 : Epoch 27 Rank 5: lr=0.000010, train_loss=0.100874, time=518.424s
+26-06-04 15:37:17.924 : model is saved at 27 epoch.
+26-06-04 15:37:50.369 : Validate at Epoch 27 | val_loss=0.132666 | patience=0/20
+26-06-04 15:37:50.370 :   >> No improvement. best_loss=0.132576 at epoch 26. patience=1/20
+26-06-04 15:46:28.737 : Epoch 28 Rank 0: lr=0.000010, train_loss=0.101949, time=518.360s
+26-06-04 15:46:28.736 : Epoch 28 Rank 3: lr=0.000010, train_loss=0.101959, time=518.360s
+26-06-04 15:46:28.737 : Epoch 28 Rank 2: lr=0.000010, train_loss=0.103840, time=518.360s
+26-06-04 15:46:28.737 : Epoch 28 Rank 1: lr=0.000010, train_loss=0.102669, time=518.360s
+26-06-04 15:46:28.737 : Epoch 28 Rank 4: lr=0.000010, train_loss=0.102911, time=518.360s
+26-06-04 15:46:28.738 : Epoch 28 Rank 5: lr=0.000010, train_loss=0.102770, time=518.361s
+26-06-04 15:46:28.738 : Epoch 28 Rank 7: lr=0.000010, train_loss=0.102572, time=518.361s
+26-06-04 15:46:28.738 : Epoch 28 Rank 6: lr=0.000010, train_loss=0.102094, time=518.361s
+26-06-04 15:46:33.270 : model is saved at 28 epoch.
+26-06-04 15:47:00.796 : Validate at Epoch 28 | val_loss=0.132295 | patience=1/20
+26-06-04 15:47:02.249 :   >> New best val_loss=0.132295 (prev=0.132576) — best_model.pth saved at epoch 28.
+26-06-04 15:55:40.652 : Epoch 29 Rank 2: lr=0.000010, train_loss=0.100346, time=518.396s
+26-06-04 15:55:40.652 : Epoch 29 Rank 1: lr=0.000010, train_loss=0.100718, time=518.396s
+26-06-04 15:55:40.652 : Epoch 29 Rank 3: lr=0.000010, train_loss=0.100153, time=518.397s
+26-06-04 15:55:40.652 : Epoch 29 Rank 0: lr=0.000010, train_loss=0.101546, time=518.397s
+26-06-04 15:55:40.656 : Epoch 29 Rank 6: lr=0.000010, train_loss=0.100764, time=518.401s
+26-06-04 15:55:40.657 : Epoch 29 Rank 5: lr=0.000010, train_loss=0.102343, time=518.401s
+26-06-04 15:55:40.656 : Epoch 29 Rank 4: lr=0.000010, train_loss=0.102097, time=518.400s
+26-06-04 15:55:40.657 : Epoch 29 Rank 7: lr=0.000010, train_loss=0.100775, time=518.401s
+26-06-04 15:55:44.918 : model is saved at 29 epoch.
+26-06-04 15:56:12.339 : Validate at Epoch 29 | val_loss=0.133088 | patience=0/20
+26-06-04 15:56:12.341 :   >> No improvement. best_loss=0.132295 at epoch 28. patience=1/20
+26-06-04 16:04:50.844 : Epoch 30 Rank 5: lr=0.000010, train_loss=0.101458, time=518.497s
+26-06-04 16:04:50.845 : Epoch 30 Rank 1: lr=0.000010, train_loss=0.101942, time=518.498s
+26-06-04 16:04:50.844 : Epoch 30 Rank 6: lr=0.000010, train_loss=0.100903, time=518.497s
+26-06-04 16:04:50.845 : Epoch 30 Rank 2: lr=0.000010, train_loss=0.100868, time=518.499s
+26-06-04 16:04:50.844 : Epoch 30 Rank 7: lr=0.000010, train_loss=0.101942, time=518.497s
+26-06-04 16:04:50.845 : Epoch 30 Rank 3: lr=0.000010, train_loss=0.100860, time=518.498s
+26-06-04 16:04:50.844 : Epoch 30 Rank 4: lr=0.000010, train_loss=0.100099, time=518.497s
+26-06-04 16:04:50.845 : Epoch 30 Rank 0: lr=0.000010, train_loss=0.101441, time=518.499s
+26-06-04 16:04:55.511 : model is saved at 30 epoch.
+26-06-04 16:05:23.251 : Validate at Epoch 30 | val_loss=0.133178 | patience=1/20
+26-06-04 16:05:23.251 :   >> No improvement. best_loss=0.132295 at epoch 28. patience=2/20
+26-06-04 16:14:01.501 : Epoch 31 Rank 3: lr=0.000010, train_loss=0.102334, time=518.240s
+26-06-04 16:14:01.501 : Epoch 31 Rank 1: lr=0.000010, train_loss=0.103499, time=518.240s
+26-06-04 16:14:01.501 : Epoch 31 Rank 0: lr=0.000010, train_loss=0.100774, time=518.240s
+26-06-04 16:14:01.501 : Epoch 31 Rank 2: lr=0.000010, train_loss=0.101544, time=518.240s
+26-06-04 16:14:01.501 : Epoch 31 Rank 6: lr=0.000010, train_loss=0.101851, time=518.241s
+26-06-04 16:14:01.501 : Epoch 31 Rank 4: lr=0.000010, train_loss=0.102755, time=518.240s
+26-06-04 16:14:01.502 : Epoch 31 Rank 5: lr=0.000010, train_loss=0.102388, time=518.241s
+26-06-04 16:14:01.502 : Epoch 31 Rank 7: lr=0.000010, train_loss=0.102108, time=518.241s
+26-06-04 16:14:06.373 : model is saved at 31 epoch.
+26-06-04 16:14:33.767 : Validate at Epoch 31 | val_loss=0.131063 | patience=2/20
+26-06-04 16:14:35.349 :   >> New best val_loss=0.131063 (prev=0.132295) — best_model.pth saved at epoch 31.
+26-06-04 16:23:13.879 : Epoch 32 Rank 3: lr=0.000010, train_loss=0.102769, time=518.525s
+26-06-04 16:23:13.879 : Epoch 32 Rank 0: lr=0.000010, train_loss=0.101223, time=518.525s
+26-06-04 16:23:13.879 : Epoch 32 Rank 2: lr=0.000010, train_loss=0.103701, time=518.525s
+26-06-04 16:23:13.879 : Epoch 32 Rank 1: lr=0.000010, train_loss=0.102908, time=518.525s
+26-06-04 16:23:13.881 : Epoch 32 Rank 5: lr=0.000010, train_loss=0.101523, time=518.527s
+26-06-04 16:23:13.881 : Epoch 32 Rank 4: lr=0.000010, train_loss=0.103835, time=518.526s
+26-06-04 16:23:13.881 : Epoch 32 Rank 7: lr=0.000010, train_loss=0.103289, time=518.527s
+26-06-04 16:23:13.881 : Epoch 32 Rank 6: lr=0.000010, train_loss=0.102063, time=518.527s
+26-06-04 16:23:18.485 : model is saved at 32 epoch.
+26-06-04 16:23:46.296 : Validate at Epoch 32 | val_loss=0.132983 | patience=0/20
+26-06-04 16:23:46.297 :   >> No improvement. best_loss=0.131063 at epoch 31. patience=1/20
+26-06-04 16:32:24.534 : Epoch 33 Rank 3: lr=0.000010, train_loss=0.100904, time=518.227s
+26-06-04 16:32:24.534 : Epoch 33 Rank 0: lr=0.000010, train_loss=0.101403, time=518.225s
+26-06-04 16:32:24.534 : Epoch 33 Rank 2: lr=0.000010, train_loss=0.101308, time=518.227s
+26-06-04 16:32:24.534 : Epoch 33 Rank 1: lr=0.000010, train_loss=0.101312, time=518.227s
+26-06-04 16:32:24.537 : Epoch 33 Rank 4: lr=0.000010, train_loss=0.101750, time=518.229s
+26-06-04 16:32:24.536 : Epoch 33 Rank 5: lr=0.000010, train_loss=0.100593, time=518.229s
+26-06-04 16:32:24.537 : Epoch 33 Rank 7: lr=0.000010, train_loss=0.101278, time=518.229s
+26-06-04 16:32:24.537 : Epoch 33 Rank 6: lr=0.000010, train_loss=0.101475, time=518.229s
+26-06-04 16:32:29.276 : model is saved at 33 epoch.
+26-06-04 16:32:57.012 : Validate at Epoch 33 | val_loss=0.132260 | patience=1/20
+26-06-04 16:32:57.013 :   >> No improvement. best_loss=0.131063 at epoch 31. patience=2/20
+26-06-04 16:41:35.785 : Epoch 34 Rank 4: lr=0.000010, train_loss=0.102396, time=518.767s
+26-06-04 16:41:35.786 : Epoch 34 Rank 3: lr=0.000010, train_loss=0.101976, time=518.768s
+26-06-04 16:41:35.785 : Epoch 34 Rank 5: lr=0.000010, train_loss=0.102476, time=518.766s
+26-06-04 16:41:35.786 : Epoch 34 Rank 1: lr=0.000010, train_loss=0.103111, time=518.768s
+26-06-04 16:41:35.785 : Epoch 34 Rank 7: lr=0.000010, train_loss=0.100877, time=518.766s
+26-06-04 16:41:35.786 : Epoch 34 Rank 2: lr=0.000010, train_loss=0.103594, time=518.768s
+26-06-04 16:41:35.785 : Epoch 34 Rank 6: lr=0.000010, train_loss=0.103552, time=518.766s
+26-06-04 16:41:35.786 : Epoch 34 Rank 0: lr=0.000010, train_loss=0.103226, time=518.767s
+26-06-04 16:41:40.395 : model is saved at 34 epoch.
+26-06-04 16:42:07.920 : Validate at Epoch 34 | val_loss=0.134997 | patience=2/20
+26-06-04 16:42:07.921 :   >> No improvement. best_loss=0.131063 at epoch 31. patience=3/20
+26-06-04 16:50:46.178 : Epoch 35 Rank 3: lr=0.000010, train_loss=0.103836, time=518.249s
+26-06-04 16:50:46.178 : Epoch 35 Rank 1: lr=0.000010, train_loss=0.103391, time=518.249s
+26-06-04 16:50:46.178 : Epoch 35 Rank 0: lr=0.000010, train_loss=0.102268, time=518.250s
+26-06-04 16:50:46.178 : Epoch 35 Rank 2: lr=0.000010, train_loss=0.102137, time=518.249s
+26-06-04 16:50:46.180 : Epoch 35 Rank 6: lr=0.000010, train_loss=0.101256, time=518.251s
+26-06-04 16:50:46.180 : Epoch 35 Rank 7: lr=0.000010, train_loss=0.103891, time=518.251s
+26-06-04 16:50:46.180 : Epoch 35 Rank 4: lr=0.000010, train_loss=0.103107, time=518.251s
+26-06-04 16:50:46.180 : Epoch 35 Rank 5: lr=0.000010, train_loss=0.102200, time=518.251s
+26-06-04 16:50:50.483 : model is saved at 35 epoch.
+26-06-04 16:51:17.898 : Validate at Epoch 35 | val_loss=0.132171 | patience=3/20
+26-06-04 16:51:17.899 :   >> No improvement. best_loss=0.131063 at epoch 31. patience=4/20
+26-06-04 16:59:58.703 : Epoch 36 Rank 5: lr=0.000010, train_loss=0.104354, time=520.798s
+26-06-04 16:59:58.703 : Epoch 36 Rank 4: lr=0.000010, train_loss=0.103957, time=520.798s
+26-06-04 16:59:58.703 : Epoch 36 Rank 7: lr=0.000010, train_loss=0.103354, time=520.798s
+26-06-04 16:59:58.703 : Epoch 36 Rank 6: lr=0.000010, train_loss=0.102578, time=520.798s
+26-06-04 16:59:58.705 : Epoch 36 Rank 0: lr=0.000010, train_loss=0.103601, time=520.800s
+26-06-04 16:59:58.704 : Epoch 36 Rank 3: lr=0.000010, train_loss=0.103762, time=520.799s
+26-06-04 16:59:58.705 : Epoch 36 Rank 2: lr=0.000010, train_loss=0.102873, time=520.800s
+26-06-04 16:59:58.704 : Epoch 36 Rank 1: lr=0.000010, train_loss=0.103128, time=520.799s
+26-06-04 17:00:03.105 : model is saved at 36 epoch.
+26-06-04 17:00:30.911 : Validate at Epoch 36 | val_loss=0.132105 | patience=4/20
+26-06-04 17:00:30.912 :   >> No improvement. best_loss=0.131063 at epoch 31. patience=5/20
+26-06-04 17:09:09.064 : Epoch 37 Rank 3: lr=0.000010, train_loss=0.104644, time=518.145s
+26-06-04 17:09:09.065 : Epoch 37 Rank 4: lr=0.000010, train_loss=0.102570, time=518.146s
+26-06-04 17:09:09.064 : Epoch 37 Rank 0: lr=0.000010, train_loss=0.104738, time=518.146s
+26-06-04 17:09:09.065 : Epoch 37 Rank 5: lr=0.000010, train_loss=0.102860, time=518.147s
+26-06-04 17:09:09.064 : Epoch 37 Rank 1: lr=0.000010, train_loss=0.103719, time=518.145s
+26-06-04 17:09:09.065 : Epoch 37 Rank 6: lr=0.000010, train_loss=0.102832, time=518.147s
+26-06-04 17:09:09.063 : Epoch 37 Rank 2: lr=0.000010, train_loss=0.103121, time=518.145s
+26-06-04 17:09:09.065 : Epoch 37 Rank 7: lr=0.000010, train_loss=0.103613, time=518.147s
+26-06-04 17:09:13.469 : model is saved at 37 epoch.
+26-06-04 17:09:41.303 : Validate at Epoch 37 | val_loss=0.134696 | patience=5/20
+26-06-04 17:09:41.304 :   >> No improvement. best_loss=0.131063 at epoch 31. patience=6/20
+26-06-04 17:18:21.633 : Epoch 38 Rank 5: lr=0.000010, train_loss=0.102662, time=520.315s
+26-06-04 17:18:21.634 : Epoch 38 Rank 4: lr=0.000010, train_loss=0.100176, time=520.316s
+26-06-04 17:18:21.634 : Epoch 38 Rank 7: lr=0.000010, train_loss=0.101159, time=520.316s
+26-06-04 17:18:21.633 : Epoch 38 Rank 6: lr=0.000010, train_loss=0.100742, time=520.315s
+26-06-04 17:18:21.637 : Epoch 38 Rank 0: lr=0.000010, train_loss=0.099619, time=520.318s
+26-06-04 17:18:21.637 : Epoch 38 Rank 1: lr=0.000010, train_loss=0.101920, time=520.319s
+26-06-04 17:18:21.637 : Epoch 38 Rank 3: lr=0.000010, train_loss=0.101803, time=520.319s
+26-06-04 17:18:21.637 : Epoch 38 Rank 2: lr=0.000010, train_loss=0.101026, time=520.319s
+26-06-04 17:18:26.489 : model is saved at 38 epoch.
+26-06-04 17:18:53.853 : Validate at Epoch 38 | val_loss=0.133423 | patience=6/20
+26-06-04 17:18:53.854 :   >> No improvement. best_loss=0.131063 at epoch 31. patience=7/20
+26-06-04 17:27:31.957 : Epoch 39 Rank 2: lr=0.000010, train_loss=0.099013, time=518.100s
+26-06-04 17:27:31.957 : Epoch 39 Rank 0: lr=0.000010, train_loss=0.100055, time=518.100s
+26-06-04 17:27:31.958 : Epoch 39 Rank 1: lr=0.000010, train_loss=0.098044, time=518.100s
+26-06-04 17:27:31.958 : Epoch 39 Rank 3: lr=0.000010, train_loss=0.099508, time=518.100s
+26-06-04 17:27:31.959 : Epoch 39 Rank 4: lr=0.000010, train_loss=0.099634, time=518.102s
+26-06-04 17:27:31.959 : Epoch 39 Rank 6: lr=0.000010, train_loss=0.098614, time=518.102s
+26-06-04 17:27:31.960 : Epoch 39 Rank 7: lr=0.000010, train_loss=0.100756, time=518.103s
+26-06-04 17:27:31.959 : Epoch 39 Rank 5: lr=0.000010, train_loss=0.098988, time=518.102s
+26-06-04 17:27:36.401 : model is saved at 39 epoch.
+26-06-04 17:28:04.037 : Validate at Epoch 39 | val_loss=0.131745 | patience=7/20
+26-06-04 17:28:04.037 :   >> No improvement. best_loss=0.131063 at epoch 31. patience=8/20
+26-06-04 17:36:42.457 : Epoch 40 Rank 7: lr=0.000010, train_loss=0.102079, time=518.412s
+26-06-04 17:36:42.457 : Epoch 40 Rank 5: lr=0.000010, train_loss=0.098757, time=518.412s
+26-06-04 17:36:42.457 : Epoch 40 Rank 4: lr=0.000010, train_loss=0.100606, time=518.412s
+26-06-04 17:36:42.457 : Epoch 40 Rank 6: lr=0.000010, train_loss=0.101176, time=518.412s
+26-06-04 17:36:42.458 : Epoch 40 Rank 0: lr=0.000010, train_loss=0.100551, time=518.413s
+26-06-04 17:36:42.459 : Epoch 40 Rank 2: lr=0.000010, train_loss=0.100478, time=518.414s
+26-06-04 17:36:42.459 : Epoch 40 Rank 3: lr=0.000010, train_loss=0.101046, time=518.414s
+26-06-04 17:36:42.459 : Epoch 40 Rank 1: lr=0.000010, train_loss=0.099602, time=518.414s
+26-06-04 17:36:48.400 : model is saved at 40 epoch.
+26-06-04 17:37:15.885 : Validate at Epoch 40 | val_loss=0.131932 | patience=8/20
+26-06-04 17:37:15.886 :   >> No improvement. best_loss=0.131063 at epoch 31. patience=9/20
+26-06-04 17:45:54.414 : Epoch 41 Rank 1: lr=0.000010, train_loss=0.101562, time=518.521s
+26-06-04 17:45:54.414 : Epoch 41 Rank 2: lr=0.000010, train_loss=0.099574, time=518.521s
+26-06-04 17:45:54.414 : Epoch 41 Rank 0: lr=0.000010, train_loss=0.100166, time=518.521s
+26-06-04 17:45:54.414 : Epoch 41 Rank 3: lr=0.000010, train_loss=0.099698, time=518.521s
+26-06-04 17:45:54.419 : Epoch 41 Rank 5: lr=0.000010, train_loss=0.100714, time=518.526s
+26-06-04 17:45:54.418 : Epoch 41 Rank 4: lr=0.000010, train_loss=0.100022, time=518.525s
+26-06-04 17:45:54.419 : Epoch 41 Rank 6: lr=0.000010, train_loss=0.099942, time=518.526s
+26-06-04 17:45:54.419 : Epoch 41 Rank 7: lr=0.000010, train_loss=0.099695, time=518.526s
+26-06-04 17:45:58.868 : model is saved at 41 epoch.
+26-06-04 17:46:26.612 : Validate at Epoch 41 | val_loss=0.132060 | patience=9/20
+26-06-04 17:46:26.613 :   >> No improvement. best_loss=0.131063 at epoch 31. patience=10/20
+26-06-04 17:55:04.824 : Epoch 42 Rank 3: lr=0.000010, train_loss=0.101490, time=518.203s
+26-06-04 17:55:04.824 : Epoch 42 Rank 1: lr=0.000010, train_loss=0.099695, time=518.203s
+26-06-04 17:55:04.825 : Epoch 42 Rank 2: lr=0.000010, train_loss=0.099208, time=518.204s
+26-06-04 17:55:04.825 : Epoch 42 Rank 0: lr=0.000010, train_loss=0.099837, time=518.204s
+26-06-04 17:55:04.825 : Epoch 42 Rank 4: lr=0.000010, train_loss=0.100225, time=518.204s
+26-06-04 17:55:04.825 : Epoch 42 Rank 6: lr=0.000010, train_loss=0.101069, time=518.204s
+26-06-04 17:55:04.825 : Epoch 42 Rank 7: lr=0.000010, train_loss=0.099434, time=518.204s
+26-06-04 17:55:04.825 : Epoch 42 Rank 5: lr=0.000010, train_loss=0.099426, time=518.205s
+26-06-04 17:55:09.035 : model is saved at 42 epoch.
+26-06-04 17:55:36.662 : Validate at Epoch 42 | val_loss=0.132835 | patience=10/20
+26-06-04 17:55:36.663 :   >> No improvement. best_loss=0.131063 at epoch 31. patience=11/20
+26-06-04 18:04:14.957 : Epoch 43 Rank 1: lr=0.000010, train_loss=0.097885, time=518.285s
+26-06-04 18:04:14.957 : Epoch 43 Rank 3: lr=0.000010, train_loss=0.097277, time=518.285s
+26-06-04 18:04:14.957 : Epoch 43 Rank 2: lr=0.000010, train_loss=0.098007, time=518.285s
+26-06-04 18:04:14.957 : Epoch 43 Rank 0: lr=0.000010, train_loss=0.100319, time=518.286s
+26-06-04 18:04:14.960 : Epoch 43 Rank 4: lr=0.000010, train_loss=0.098840, time=518.289s
+26-06-04 18:04:14.961 : Epoch 43 Rank 5: lr=0.000010, train_loss=0.097949, time=518.290s
+26-06-04 18:04:14.961 : Epoch 43 Rank 6: lr=0.000010, train_loss=0.098086, time=518.290s
+26-06-04 18:04:14.961 : Epoch 43 Rank 7: lr=0.000010, train_loss=0.098689, time=518.290s
+26-06-04 18:04:20.195 : model is saved at 43 epoch.
+26-06-04 18:04:47.737 : Validate at Epoch 43 | val_loss=0.132145 | patience=11/20
+26-06-04 18:04:47.739 :   >> No improvement. best_loss=0.131063 at epoch 31. patience=12/20
+26-06-04 18:13:26.517 : Epoch 44 Rank 6: lr=0.000010, train_loss=0.097964, time=518.768s
+26-06-04 18:13:26.519 : Epoch 44 Rank 3: lr=0.000010, train_loss=0.100902, time=518.771s
+26-06-04 18:13:26.517 : Epoch 44 Rank 7: lr=0.000010, train_loss=0.098663, time=518.769s
+26-06-04 18:13:26.519 : Epoch 44 Rank 2: lr=0.000010, train_loss=0.097780, time=518.771s
+26-06-04 18:13:26.517 : Epoch 44 Rank 4: lr=0.000010, train_loss=0.098679, time=518.769s
+26-06-04 18:13:26.519 : Epoch 44 Rank 0: lr=0.000010, train_loss=0.098055, time=518.770s
+26-06-04 18:13:26.516 : Epoch 44 Rank 5: lr=0.000010, train_loss=0.099511, time=518.768s
+26-06-04 18:13:26.519 : Epoch 44 Rank 1: lr=0.000010, train_loss=0.098662, time=518.771s
+26-06-04 18:13:31.323 : model is saved at 44 epoch.
+26-06-04 18:13:58.973 : Validate at Epoch 44 | val_loss=0.132628 | patience=12/20
+26-06-04 18:13:58.974 :   >> No improvement. best_loss=0.131063 at epoch 31. patience=13/20
+26-06-04 18:22:37.482 : Epoch 45 Rank 3: lr=0.000010, train_loss=0.099163, time=518.501s
+26-06-04 18:22:37.482 : Epoch 45 Rank 1: lr=0.000010, train_loss=0.097148, time=518.501s
+26-06-04 18:22:37.482 : Epoch 45 Rank 2: lr=0.000010, train_loss=0.097189, time=518.502s
+26-06-04 18:22:37.482 : Epoch 45 Rank 0: lr=0.000010, train_loss=0.095991, time=518.502s
+26-06-04 18:22:37.485 : Epoch 45 Rank 4: lr=0.000010, train_loss=0.096415, time=518.505s
+26-06-04 18:22:37.486 : Epoch 45 Rank 6: lr=0.000010, train_loss=0.095833, time=518.506s
+26-06-04 18:22:37.486 : Epoch 45 Rank 5: lr=0.000010, train_loss=0.096524, time=518.506s
+26-06-04 18:22:37.486 : Epoch 45 Rank 7: lr=0.000010, train_loss=0.096660, time=518.506s
+26-06-04 18:22:42.258 : model is saved at 45 epoch.
+26-06-04 18:23:10.058 : Validate at Epoch 45 | val_loss=0.131235 | patience=13/20
+26-06-04 18:23:10.058 :   >> No improvement. best_loss=0.131063 at epoch 31. patience=14/20
+26-06-04 18:31:48.100 : Epoch 46 Rank 0: lr=0.000010, train_loss=0.099665, time=518.039s
+26-06-04 18:31:48.100 : Epoch 46 Rank 1: lr=0.000010, train_loss=0.100014, time=518.039s
+26-06-04 18:31:48.101 : Epoch 46 Rank 3: lr=0.000010, train_loss=0.099320, time=518.039s
+26-06-04 18:31:48.101 : Epoch 46 Rank 2: lr=0.000010, train_loss=0.099834, time=518.039s
+26-06-04 18:31:48.101 : Epoch 46 Rank 4: lr=0.000010, train_loss=0.099211, time=518.039s
+26-06-04 18:31:48.101 : Epoch 46 Rank 7: lr=0.000010, train_loss=0.101018, time=518.039s
+26-06-04 18:31:48.101 : Epoch 46 Rank 5: lr=0.000010, train_loss=0.099544, time=518.039s
+26-06-04 18:31:48.101 : Epoch 46 Rank 6: lr=0.000010, train_loss=0.100333, time=518.039s
+26-06-04 18:31:52.916 : model is saved at 46 epoch.
+26-06-04 18:32:20.405 : Validate at Epoch 46 | val_loss=0.133218 | patience=14/20
+26-06-04 18:32:20.406 :   >> No improvement. best_loss=0.131063 at epoch 31. patience=15/20
+26-06-04 18:40:59.110 : Epoch 47 Rank 3: lr=0.000010, train_loss=0.100226, time=518.698s
+26-06-04 18:40:59.110 : Epoch 47 Rank 1: lr=0.000010, train_loss=0.098741, time=518.698s
+26-06-04 18:40:59.111 : Epoch 47 Rank 2: lr=0.000010, train_loss=0.098737, time=518.699s
+26-06-04 18:40:59.111 : Epoch 47 Rank 0: lr=0.000010, train_loss=0.098682, time=518.699s
+26-06-04 18:40:59.114 : Epoch 47 Rank 5: lr=0.000010, train_loss=0.099112, time=518.702s
+26-06-04 18:40:59.113 : Epoch 47 Rank 4: lr=0.000010, train_loss=0.102628, time=518.701s
+26-06-04 18:40:59.114 : Epoch 47 Rank 6: lr=0.000010, train_loss=0.098367, time=518.702s
+26-06-04 18:40:59.114 : Epoch 47 Rank 7: lr=0.000010, train_loss=0.099367, time=518.702s
+26-06-04 18:41:03.572 : model is saved at 47 epoch.
+26-06-04 18:41:31.216 : Validate at Epoch 47 | val_loss=0.133075 | patience=15/20
+26-06-04 18:41:31.218 :   >> No improvement. best_loss=0.131063 at epoch 31. patience=16/20
+26-06-04 18:50:09.615 : Epoch 48 Rank 4: lr=0.000010, train_loss=0.097398, time=518.391s
+26-06-04 18:50:09.615 : Epoch 48 Rank 6: lr=0.000010, train_loss=0.098111, time=518.391s
+26-06-04 18:50:09.615 : Epoch 48 Rank 5: lr=0.000010, train_loss=0.098342, time=518.391s
+26-06-04 18:50:09.615 : Epoch 48 Rank 7: lr=0.000010, train_loss=0.098005, time=518.391s
+26-06-04 18:50:09.618 : Epoch 48 Rank 3: lr=0.000010, train_loss=0.098986, time=518.394s
+26-06-04 18:50:09.618 : Epoch 48 Rank 2: lr=0.000010, train_loss=0.099064, time=518.394s
+26-06-04 18:50:09.618 : Epoch 48 Rank 0: lr=0.000010, train_loss=0.099450, time=518.394s
+26-06-04 18:50:09.618 : Epoch 48 Rank 1: lr=0.000010, train_loss=0.099502, time=518.393s
+26-06-04 18:50:13.955 : model is saved at 48 epoch.
+26-06-04 18:50:41.425 : Validate at Epoch 48 | val_loss=0.132245 | patience=16/20
+26-06-04 18:50:41.426 :   >> No improvement. best_loss=0.131063 at epoch 31. patience=17/20
+26-06-04 18:59:19.546 : Epoch 49 Rank 3: lr=0.000010, train_loss=0.100054, time=518.112s
+26-06-04 18:59:19.546 : Epoch 49 Rank 1: lr=0.000010, train_loss=0.099150, time=518.112s
+26-06-04 18:59:19.545 : Epoch 49 Rank 2: lr=0.000010, train_loss=0.100028, time=518.112s
+26-06-04 18:59:19.545 : Epoch 49 Rank 0: lr=0.000010, train_loss=0.099875, time=518.111s
+26-06-04 18:59:19.550 : Epoch 49 Rank 6: lr=0.000010, train_loss=0.099713, time=518.117s
+26-06-04 18:59:19.550 : Epoch 49 Rank 4: lr=0.000010, train_loss=0.099221, time=518.117s
+26-06-04 18:59:19.550 : Epoch 49 Rank 5: lr=0.000010, train_loss=0.099796, time=518.117s
+26-06-04 18:59:19.550 : Epoch 49 Rank 7: lr=0.000010, train_loss=0.099119, time=518.117s
+26-06-04 18:59:23.999 : model is saved at 49 epoch.
+26-06-04 18:59:51.778 : Validate at Epoch 49 | val_loss=0.134859 | patience=17/20
+26-06-04 18:59:51.778 :   >> No improvement. best_loss=0.131063 at epoch 31. patience=18/20
+26-06-04 19:08:30.207 : Epoch 50 Rank 0: lr=0.000010, train_loss=0.099500, time=518.421s
+26-06-04 19:08:30.207 : Epoch 50 Rank 3: lr=0.000010, train_loss=0.097247, time=518.422s
+26-06-04 19:08:30.207 : Epoch 50 Rank 2: lr=0.000010, train_loss=0.098612, time=518.422s
+26-06-04 19:08:30.207 : Epoch 50 Rank 1: lr=0.000010, train_loss=0.099208, time=518.422s
+26-06-04 19:08:30.209 : Epoch 50 Rank 7: lr=0.000010, train_loss=0.098023, time=518.424s
+26-06-04 19:08:30.208 : Epoch 50 Rank 4: lr=0.000010, train_loss=0.098198, time=518.423s
+26-06-04 19:08:30.209 : Epoch 50 Rank 5: lr=0.000010, train_loss=0.097532, time=518.424s
+26-06-04 19:08:30.209 : Epoch 50 Rank 6: lr=0.000010, train_loss=0.098002, time=518.423s
+26-06-04 19:08:34.886 : model is saved at 50 epoch.
+26-06-04 19:09:02.343 : Validate at Epoch 50 | val_loss=0.132079 | patience=18/20
+26-06-04 19:09:02.343 :   >> No improvement. best_loss=0.131063 at epoch 31. patience=19/20
+26-06-04 19:17:40.511 : Epoch 51 Rank 3: lr=0.000005, train_loss=0.097131, time=518.156s
+26-06-04 19:17:40.511 : Epoch 51 Rank 2: lr=0.000005, train_loss=0.097917, time=518.156s
+26-06-04 19:17:40.512 : Epoch 51 Rank 0: lr=0.000005, train_loss=0.097959, time=518.155s
+26-06-04 19:17:40.511 : Epoch 51 Rank 1: lr=0.000005, train_loss=0.096924, time=518.156s
+26-06-04 19:17:40.515 : Epoch 51 Rank 4: lr=0.000005, train_loss=0.097574, time=518.160s
+26-06-04 19:17:40.516 : Epoch 51 Rank 5: lr=0.000005, train_loss=0.097336, time=518.160s
+26-06-04 19:17:40.516 : Epoch 51 Rank 6: lr=0.000005, train_loss=0.095849, time=518.160s
+26-06-04 19:17:40.516 : Epoch 51 Rank 7: lr=0.000005, train_loss=0.096783, time=518.161s
+26-06-04 19:17:45.649 : model is saved at 51 epoch.
+26-06-04 19:18:13.070 : Validate at Epoch 51 | val_loss=0.131663 | patience=19/20
+26-06-04 19:18:13.070 :   >> No improvement. best_loss=0.131063 at epoch 31. patience=20/20
+26-06-04 19:18:13.071 : 
+============================================================
+EARLY STOPPING triggered at epoch 51.
+  No val_loss improvement for 20 consecutive epochs.
+  Best val_loss : 0.131063 (epoch 31)
+  Patience limit: 20
+  Best model saved at: /home/imd/imdaiml/pangu_finetune/Pangu_Finetune_Single/finetuned_GFS_final/finetune_fully/24/models/best_model.pth
+============================================================
+
+26-06-04 19:18:13.076 : 
+============================================================
+Training complete.
+  Total epochs run : 51
+  Best val_loss    : 0.131063 (epoch 31)
+============================================================
+
+[NOTE: Raw log output was truncated here by the system. Full epoch metrics log ends at Epoch 51.]
