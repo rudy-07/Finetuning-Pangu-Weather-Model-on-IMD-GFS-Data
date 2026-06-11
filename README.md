@@ -2,6 +2,10 @@
 
 This repository contains the codebase, logs, and evaluation metrics for the finetuning of the Pangu-Weather model using Indian Meteorological Department (IMD) Global Forecast System (GFS) data. 
 
+## Repository Scope
+
+This repository documents the workflow, experiments, training infrastructure, evaluation methodology, and results of the finetuning effort. Certain datasets, model weights, and internal configurations might not be included due to licensing, storage, and organizational restrictions. Please refer to the referenced repositories at the bottom for more underlying structure.
+
 ## 1. Project Highlights
 - **Dataset:** Finetuned Pangu-Weather on 3.5 years of IMD GFS data.
 - **Performance:** Improved MSL RMSE by **66%** globally and T2M RMSE by **55%** globally.
@@ -47,9 +51,12 @@ graph TD
 ├── IMD_GFS_data_3yr/          # Data directory (Surface, Upper, and Aux Data)
 ├── Pangu_Finetune_Single/     # Core training and utility scripts
 │   ├── finetune_entire.py     # Main finetuning script
-│   ├── compute_mean_std.py    # Generates standard deviation/mean (aux_data)
+│   ├── call_mean_std.py       # Generates standard deviation/mean (aux_data)
+│   ├── onnx2torch.py          # Script for ONNX to PyTorch conversion
 │   ├── compare_models_metrics.py # Script for generating evaluation metrics
 │   └── pangu_finetune_gfs.pbs # HPC job submission script
+├── raw_metrics/               # Raw layer-by-layer statistical metrics
+├── plots/                     # Global and regional performance plots
 ├── final_inference/           # Inference scripts
 │   └── inference_multi_model.py # Autoregressive n-day inference script
 ├── models/                    # Saved checkpoints (e.g., best_model.pth)

@@ -1,0 +1,11 @@
+torch
+numpy
+pandas
+matplotlib
+xarray
+netCDF4
+tqdm
+tensorboardX
+timm
+
+python inference_1day.py \ --data_root /home/imd/imdaiml/pangu_finetune/Pangu_Finetune_Single/data \ --model_path /home/imd/imdaiml/pangu_finetune/Pangu_Finetune_Single/output/finetune_fully/24/models/best_model.pth \ --output_root /home/imd/imdaiml/pangu_finetune/Pangu_Finetune_Single/output \ --start_time "20180601 00:00:00" \ --horizon_hours 24
